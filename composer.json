@@ -1,0 +1,21 @@
+{
+    "name": "h-wang/utf-bom-fixer",
+    "description": "UTF BOM fixer",
+    "homepage": "https://github.com/h-wang/utf-bom-fixer",
+    "keywords": ["utf", "php", "bom", "hongliang"],
+    "type": "application",
+    "license": "MIT",
+    "authors": [{
+        "name": "Hongliang",
+        "email": "code@hongliang.nl",
+        "role": "Development"
+    }],
+    "require": {
+        "symfony/console": "~3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hongliang\\UtfBomFixer\\": "src/"
+        }
+    }
+}

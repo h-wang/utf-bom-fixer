@@ -1,0 +1,9 @@
+#!/usr/bin/env php
+<?php
+
+require_once(__DIR__.'/vendor/autoload.php');
+
+$application = new \Symfony\Component\Console\Application('UTF BOM Fixer', '1.0.0');
+$application->setCatchExceptions(false);
+$application->add(new \Hongliang\UtfBomFixer\Command\FixCommand());
+$application->run();
